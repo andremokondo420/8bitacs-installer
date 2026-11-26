@@ -112,15 +112,3 @@ echo -e "${WHITE}Port CWMP    : ${CYAN}7547${NC}"
 echo -e "${YELLOW}------------------------------------------------------------${NC}"
 echo -e "${GREEN}[OK] Database MongoDB berhasil di-restore!${NC}\n"
 echo -e "${CYAN}[5/6] Menjalankan seluruh service GenieACS...${NC}"
-systemctl daemon-reload
-systemctl enable --now genieacs-cwmp genieacs-nbi genieacs-fs genieacs-ui
-systemctl restart genieacs-cwmp genieacs-nbi genieacs-fs genieacs-ui
-echo -e "${GREEN}[OK] Semua service aktif!${NC}\n"
-echo -e "${CYAN}[6/6] Membersihkan file sementara...${NC}"
-rm -rf restore_temp 8bitacs-full.tar.gz
-IP_ADDR=$(hostname -I | awk '{print $1}')
-echo -e "${YELLOW}------------------------------------------------------------${NC}"
-echo -e "${GREEN}INSTALASI 8bitACS SELESAI (100% IDENTIK)!${NC}"
-echo -e "${WHITE}Akses Web UI : ${CYAN}http://${IP_ADDR}:3000${NC}"
-echo -e "${WHITE}Port CWMP    : ${CYAN}7547${NC}"
-echo -e "${YELLOW}------------------------------------------------------------${NC}"
