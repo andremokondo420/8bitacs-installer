@@ -1,6 +1,6 @@
 # 🚀 8bitACS — Auto Installer & Full Configuration Backup
 
-**8bitACS**) adalah paket instalasi otomatis (all-in-one installer) dan sistem pemulihan penuh (full configuration backup) untuk **GenieACS** yang dirancang khusus untuk kebutuhan operasional ISP / RT-RW Net modern.
+**8bitACS** adalah paket instalasi otomatis (all-in-one installer) dan sistem pemulihan penuh (full configuration backup) untuk **GenieACS** yang dirancang khusus untuk kebutuhan operasional ISP / RT-RW Net modern.
 
 ---
 
