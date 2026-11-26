@@ -106,9 +106,6 @@ rm -rf restore_temp 8bitacs-full.tar.gz
 
 IP_ADDR=$(hostname -I | awk '{print $1}')
 echo -e "${YELLOW}------------------------------------------------------------${NC}"
-echo -e "${GREEN}INSTALASI 8bitACS SELESAI (100\% IDENTIK)!${NC}"
-echo -e "${WHITE}Akses Web UI :${CYAN}http://${IP_ADDR}:3000${NC}"
+echo -e "${GREEN}INSTALASI 8bitACS SELESAI (100% IDENTIK)!${NC}"
+echo -e "${WHITE}Akses Web UI : ${CYAN}http://${IP_ADDR}:3000${NC}"
 echo -e "${WHITE}Port CWMP    : ${CYAN}7547${NC}"
-echo -e "${YELLOW}------------------------------------------------------------${NC}"
-echo -e "${GREEN}[OK] Database MongoDB berhasil di-restore!${NC}\n"
-echo -e "${CYAN}[5/6] Menjalankan seluruh service GenieACS...${NC}"
